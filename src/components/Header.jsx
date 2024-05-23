@@ -3,6 +3,8 @@ import Link from 'next/link';
 import { Button } from './ui/button';
 // Desktop Navigation component
 import Nav from './Nav';
+// Mobile Navigation component
+import MobileNav from './MobileNav';
 
 const Header = () => {
   return (
@@ -28,7 +30,9 @@ const Header = () => {
         </div>
 
         {/* Mobile Navigation */}
-        <div className="xl:hidden">Mobile Nav</div>
+        <div className="xl:hidden">
+          <MobileNav />
+        </div>
       </div>
     </header>
   );
