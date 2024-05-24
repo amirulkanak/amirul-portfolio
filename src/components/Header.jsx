@@ -1,10 +1,10 @@
 import Link from 'next/link';
 // Shadcn ui components
-import { Button } from './ui/button';
+import { Button } from '@/components/ui/button';
 // Desktop Navigation component
-import Nav from './Nav';
+import Nav from '@/components/Nav';
 // Mobile Navigation component
-import MobileNav from './MobileNav';
+import MobileNav from '@/components/MobileNav';
 
 const Header = () => {
   return (
