@@ -29,7 +29,10 @@ function Home() {
                 <FiDownload className="text-xl" />
               </Button>
               <div className="mb-8 xl:mb-0">
-                <Social></Social>
+                <Social
+                  containerStyles="flex gap-6"
+                  iconStyles="size-9 border border-accent rounded-full flex justify-center items-center text-accent text-base hover:bg-accent hover:text-secondary hover:transition-all duration-500"
+                />
               </div>
             </div>
           </div>
