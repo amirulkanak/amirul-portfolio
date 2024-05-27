@@ -1,4 +1,3 @@
-import { Key } from 'lucide-react';
 import Link from 'next/link';
 import { FaGithub, FaLinkedinIn, FaFacebook, FaTelegram } from 'react-icons/fa';
 
@@ -17,7 +16,7 @@ const Social = ({ containerStyles, iconStyles }) => {
     <div className={containerStyles}>
       {socials.map((social, index) => {
         return (
-          <Link Key={index} href={social.link} className={iconStyles}>
+          <Link key={index} href={social.link} className={iconStyles}>
             {social.icon}
           </Link>
         );
